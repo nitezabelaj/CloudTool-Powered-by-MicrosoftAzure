@@ -46,6 +46,24 @@ void perfundimMeSukses() {
     cout << "Programi CloudTool u perfundua me sukses." << endl;
 }
 
+// Funksioni për të shfaqur listën e kolegëve që janë aktivë në projekt
+void shfaqListaKolegeve() {
+    vector<string> kolege = {"Kolegu 1 - Ana", "Kolegu 2 - Lira", "Kolegu 3 - Mark"};
+    
+    cout << "\nKoleget aktivë në projekt:\n";
+    for (const string& kolegu : kolege) {
+        cout << "- " << kolegu << endl;
+    }
+}
+
+// Funksioni për të gjeneruar një raport të thjeshtë për aktivitetet e projektit
+void krijoRaportProjekti(string aktivitet, int koha) {
+    cout << "\nRaport Projekti:\n";
+    cout << "Aktivitet: " << aktivitet << endl;
+    cout << "Koha e shpenzuar: " << koha << " orë\n";
+    cout << "Statusi: Aktiviteti është në përfundim ✅\n";
+}
+
 int main() {
     pershendetje();
     shfaqRegjionet();
@@ -54,7 +72,11 @@ int main() {
     krijoResource("CloudStorage1", 50);
     monitoroSherbimin(true);
     perfundimMeSukses();
-
+    shfaqListaKolegeve();  // Shfaq kolegët e grupit që janë aktivë
+    krijoRaportProjekti("Krijimi i resurseve Cloud", 4);  // Raporti për një aktivitet specifik në projekt
     return 0;
 
 }
+
+
+
