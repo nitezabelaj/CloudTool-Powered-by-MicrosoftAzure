@@ -19,15 +19,6 @@ void shfaqSherbimet() {
     cout << "- Databases\n";
 }
 
-int main() {
-    pershendetje();
-    shfaqRegjionet();
-    shfaqSherbimet();
-
-    return 0;
-
-}
-
 void kontrolloSigurine(bool autentikim) {
     if (autentikim == true) {
         cout << "\nSiguria: Akses i lejuar ✅\n";
@@ -48,6 +39,7 @@ int main() {
     shfaqSherbimet();
     kontrolloSigurine(true);
     krijoResource("CloudStorage1", 50);
+
     return 0;
 
 }
