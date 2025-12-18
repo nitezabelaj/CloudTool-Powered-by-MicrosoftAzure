@@ -7,14 +7,10 @@ void pershendetje() {
 
 int main() {
     pershendetje();
-     cout << "CloudTool po ekzekutohet..." << endl;
-
-    // Mesazh perfundimtar
-    perfundimMeSukses();
-
     return 0;
+
 }
-  
+
 #include <iostream>
 using namespace std;
 
@@ -54,4 +50,15 @@ void monitoroSherbimin(string statusi) {
 }
 void perfundimMeSukses() {
     cout << "Programi CloudTool u perfundua me sukses." << endl;
+}
+
+int main() {
+    pershendetje();
+    shfaqRegjionet();
+    shfaqSherbimet();
+    kontrolloSigurine(true);
+    krijoResource("CloudStorage1", 50);
+
+    return 0;
+
 }
