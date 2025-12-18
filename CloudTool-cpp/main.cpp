@@ -5,15 +5,6 @@ void pershendetje() {
     cout << "Pershendetje!" << endl;
 }
 
-int main() {
-    pershendetje();
-    return 0;
-
-}
-
-#include <iostream>
-using namespace std;
-
 void shfaqRegjionet() {
     cout << "Regjionet Cloud:\n";
     cout << "- Europe\n";
@@ -26,6 +17,15 @@ void shfaqSherbimet() {
     cout << "- Storage\n";
     cout << "- Virtual Machines\n";
     cout << "- Databases\n";
+}
+
+int main() {
+    pershendetje();
+    shfaqRegjionet();
+    shfaqSherbimet();
+
+    return 0;
+
 }
 
 void kontrolloSigurine(bool autentikim) {
