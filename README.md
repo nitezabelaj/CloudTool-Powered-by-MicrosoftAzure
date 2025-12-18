@@ -1,43 +1,45 @@
 # CloudTool – Powered by Microsoft Azure
 
-## Përshkrimi i Projektit
-**CloudTool – Powered by Microsoft Azure** është një aplikacion demonstrues i zhvilluar në gjuhën **C++**, i cili simulon funksionalitete bazë të një sistemi cloud. Projekti është ndërtuar për qëllime edukative dhe akademike, me fokus në organizimin e kodit përmes **funksioneve**, si dhe në paraqitjen e koncepteve kryesore të cloud computing.
+## Project Description
+**CloudTool – Powered by Microsoft Azure** is a demonstrative application developed in **C++** that simulates basic functionalities of a cloud system. The project is designed for educational and academic purposes, with a focus on organizing code using **functions** and presenting core concepts of cloud computing.
 
-Ky projekt shërben si një bazë e thjeshtë për të kuptuar strukturën logjike të një aplikacioni cloud, duke përfshirë regjionet, shërbimet, sigurinë dhe menaxhimin e resurseve.
-
-
-##  Struktura e Programit
-Funksioni `main()` shërben si pika hyrëse e aplikacionit dhe thërret funksionet në një rend logjik për të simuluar rrjedhën e një aplikacioni cloud.
-
-Kodi është i ndarë në funksione për:
-- Lexueshmëri më të mirë  
-- Mirëmbajtje më të lehtë  
-- Zgjerim të mundshëm në të ardhmen  
+This project serves as a simple foundation for understanding the logical structure of a cloud application, including regions, services, security, and resource management.
 
 
 
-##  Teknologjitë e Përdorura
-- **Gjuha:** C++  
-- **Konceptet:** Funksione, kushte (`if-else`), parametra, output në console  
-- **Mjedisi:** Console Application  
+## Program Structure
+The `main()` function acts as the entry point of the application and calls the functions in a logical sequence to simulate the workflow of a cloud-based application.
+
+The code is structured into separate functions to ensure:
+- Better readability  
+- Easier maintenance  
+- Potential future scalability  
 
 
 
-##  Qëllimi Akademik
-Ky projekt është realizuar për:
-- Aplikimin e funksioneve në C++
-- Kuptimin e logjikës së një aplikacioni cloud
-- Ndërtimin e një baze për projekte më të avancuara në cloud computing
+## Technologies Used
+- **Language:** C++  
+- **Concepts:** Functions, conditional statements (`if-else`), parameters, console output  
+- **Environment:** Console Application  
 
 
 
-##  Zgjerime të Mundshme
-Në të ardhmen, projekti mund të zgjerohet me:
-- Menu interaktive
-- Ruajtje të të dhënave në fajll
-- Autentikim më të avancuar
-- Simulim të shërbimeve reale të Microsoft Azure
+## Academic Purpose
+This project was developed to:
+- Apply function-based programming in C++  
+- Understand the logic behind a cloud application  
+- Build a foundation for more advanced cloud computing projects  
 
 
-##  Autorët
-Ky projekt është zhvilluar si pjesë e një pune akademike nga ekipi i **CloudTool – Powered by Microsoft Azure**.
+
+## Possible Extensions
+In the future, the project can be extended with:
+- Interactive menus  
+- File-based data storage  
+- Advanced authentication mechanisms  
+- Simulation of real Microsoft Azure services  
+
+
+
+## Authors
+This project was developed as part of an academic assignment by the **CloudTool – Powered by Microsoft Azure** team.
