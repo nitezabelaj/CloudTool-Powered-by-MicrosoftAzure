@@ -1,18 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 void pershendetje() {
     cout << "Pershendetje!" << endl;
 }
-
-int main() {
-    pershendetje();
-    return 0;
-
-}
-
-#include <iostream>
-using namespace std;
 
 void shfaqRegjionet() {
     cout << "Regjionet Cloud:\n";
@@ -41,13 +33,15 @@ void krijoResource(string emri, int madhesiaGB) {
     cout << "Emri: " << emri << endl;
     cout << "Madhesia: " << madhesiaGB << " GB\n";
 }
-void monitoroSherbimin(string statusi) {
-    if (statusi == "online") {
-        cout << "Sherbimi cloud eshte duke funksionuar normalisht." << endl;
+
+void monitoroSherbimin(bool online) {
+    if (online) {
+        cout << "Sherbimi cloud eshte duke funksionuar normalisht.\n";
     } else {
-        cout << "KUJDES! Sherbimi cloud eshte jashte funksioni." << endl;
+        cout << "KUJDES! Sherbimi cloud eshte jashte funksioni.\n";
     }
 }
+
 void perfundimMeSukses() {
     cout << "Programi CloudTool u perfundua me sukses." << endl;
 }
@@ -58,6 +52,8 @@ int main() {
     shfaqSherbimet();
     kontrolloSigurine(true);
     krijoResource("CloudStorage1", 50);
+    monitoroSherbimin(true);
+    perfundimMeSukses();
 
     return 0;
 
