@@ -5,15 +5,6 @@ void pershendetje() {
     cout << "Pershendetje!" << endl;
 }
 
-int main() {
-    pershendetje();
-    return 0;
-
-}
-
-#include <iostream>
-using namespace std;
-
 void shfaqRegjionet() {
     cout << "Regjionet Cloud:\n";
     cout << "- Europe\n";
@@ -40,4 +31,14 @@ void krijoResource(string emri, int madhesiaGB) {
     cout << "\nResource i krijuar:\n";
     cout << "Emri: " << emri << endl;
     cout << "Madhesia: " << madhesiaGB << " GB\n";
+}
+
+int main() {
+    pershendetje();
+    shfaqRegjionet();
+    shfaqSherbimet();
+    kontrolloSigurine(true);
+    krijoResource("CloudStorage1", 50);
+    return 0;
+
 }
