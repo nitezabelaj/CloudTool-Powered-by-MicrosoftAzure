@@ -7,10 +7,14 @@ void pershendetje() {
 
 int main() {
     pershendetje();
+     cout << "CloudTool po ekzekutohet..." << endl;
+
+    // Mesazh perfundimtar
+    perfundimMeSukses();
+
     return 0;
-
 }
-
+  
 #include <iostream>
 using namespace std;
 
@@ -48,4 +52,6 @@ void monitoroSherbimin(string statusi) {
         cout << "KUJDES! Sherbimi cloud eshte jashte funksioni." << endl;
     }
 }
-
+void perfundimMeSukses() {
+    cout << "Programi CloudTool u perfundua me sukses." << endl;
+}
