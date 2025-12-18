@@ -27,3 +27,17 @@ void shfaqSherbimet() {
     cout << "- Virtual Machines\n";
     cout << "- Databases\n";
 }
+
+void kontrolloSigurine(bool autentikim) {
+    if (autentikim == true) {
+        cout << "\nSiguria: Akses i lejuar ✅\n";
+    } else {
+        cout << "\nSiguria: Akses i ndaluar ❌\n";
+    }
+}
+
+void krijoResource(string emri, int madhesiaGB) {
+    cout << "\nResource i krijuar:\n";
+    cout << "Emri: " << emri << endl;
+    cout << "Madhesia: " << madhesiaGB << " GB\n";
+}
