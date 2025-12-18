@@ -41,3 +41,11 @@ void krijoResource(string emri, int madhesiaGB) {
     cout << "Emri: " << emri << endl;
     cout << "Madhesia: " << madhesiaGB << " GB\n";
 }
+void monitoroSherbimin(string statusi) {
+    if (statusi == "online") {
+        cout << "Sherbimi cloud eshte duke funksionuar normalisht." << endl;
+    } else {
+        cout << "KUJDES! Sherbimi cloud eshte jashte funksioni." << endl;
+    }
+}
+
