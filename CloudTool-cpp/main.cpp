@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 void pershendetje() {
@@ -50,7 +51,7 @@ void perfundimMeSukses() {
 void shfaqListaKolegeve() {
     vector<string> kolege = {"Kolegu 1 - Ana", "Kolegu 2 - Lira", "Kolegu 3 - Mark"};
     
-    cout << "\nKoleget aktivë në projekt:\n";
+    cout << "\nKoleget aktive ne projekt:\n";
     for (const string& kolegu : kolege) {
         cout << "- " << kolegu << endl;
     }
@@ -60,8 +61,8 @@ void shfaqListaKolegeve() {
 void krijoRaportProjekti(string aktivitet, int koha) {
     cout << "\nRaport Projekti:\n";
     cout << "Aktivitet: " << aktivitet << endl;
-    cout << "Koha e shpenzuar: " << koha << " orë\n";
-    cout << "Statusi: Aktiviteti është në përfundim ✅\n";
+    cout << "Koha e shpenzuar: " << koha << " ore\n";
+    cout << "Statusi: Aktiviteti eshte ne perfundim ✅\n";
 }
 
 int main() {
